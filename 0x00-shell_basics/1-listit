@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(ls) --width=1
+echo $ls --width=1
