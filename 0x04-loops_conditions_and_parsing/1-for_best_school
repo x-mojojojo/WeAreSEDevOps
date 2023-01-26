@@ -4,6 +4,7 @@
 n=10
 
 # Use a for loop to display the phrase n times
-for ((i=1; i<=n; i++)); do
+for ((i=1; i<=n; i++));
+do
   echo "Best School"
 done
