@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+# Store the number of times to display the phrase
+n=10
+
+# Use a for loop to display the phrase n times
+for ((i=1; i<=n; i++)); do
+  echo "Best School"
+done
