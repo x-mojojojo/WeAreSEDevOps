@@ -5,18 +5,18 @@
 #   Displays "Buzz" when the number is a multiple of 5.
 #   Otherwise, displays the number.
 
-for num in {1..100}
+for ((i = 1; i <= 100; i++));
 do
-	if (( num % 3 == 0 && num % 5 == 0 ))
+	if ((i & 3)) && ((i % 5 == 0));
 	then
 		echo "FizzBuzz"
-	elif (( num % 3 == 0 ))
+       	elif ((i & 1)) && ((i % 3 == 0));
 	then
 		echo "Fizz"
-	elif (( num % 5 == 0 ))
+	elif ((i % 5 == 0));
 	then
 		echo "Buzz"
 	else
-		echo "$num"
+		echo $i
 	fi
 done
